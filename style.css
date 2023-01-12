@@ -47,7 +47,7 @@ html,body{
     display:flex ;
     align-items: center;
     margin: 100px 100px 0px 150px;
-    background-color: aqua;
+    
 }
 .person-image{
     flex-basis: 50%;
@@ -79,14 +79,11 @@ html,body{
 }
 /*my plan section*/
 .my-plan{
-    background-color: #F15B22;
     text-align: center;
     font-family: 'Work Sans';
     color: #151414;
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: 100px;
-
 }
 .mine-plan{
 display: flex;
@@ -95,8 +92,7 @@ gap: 10%;
 margin: 0%;
 padding: 0%;
 text-align: center;
-background-color: greenyellow;
-
+margin: 0px 150px 50px 150px;
 }
 
 .skill h2{
@@ -117,4 +113,138 @@ background-color: greenyellow;
     color: #737272;
     margin: 0%;
     padding: 0%;
+}
+/* my leisure time*/
+.leisure-time{ 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.leisure-description{
+    flex-basis:40% ;
+    width: 30%;
+}
+.leisure-description h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+    font-style: normal;
+    font-style: 'Work Sans';
+}
+.leisure-description p{
+    font-size: 19px;
+    font-weight: 400;
+    font-style: 'Work Sans';
+}
+.favourite-thing-1{
+    display: flex;
+}
+.favourite-thing-2{
+    display: flex;
+}
+.favourite-logo{
+    width: 100px;
+    padding: 40px;
+}
+.things-name{
+    box-shadow: 5px 5px 10px rgb(189 185 185);
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    text-align: center;
+
+}
+/*Positive mindset section*/
+/*last banner section*/
+.positive-banner{
+    height: 300px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('./images/watch.png');
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 130px;
+}
+.positive-banner h1{
+  font-size: 40px;
+  font-family: 'Work Sans';
+  font-weight: 700;
+  line-height: 47px;
+  margin-top: 50px;
+  padding: 30px 120px;
+
+}
+.positive-banner button{
+    border: none;
+    color: #F15B22;
+    background-color: white;
+    padding: 20px 45px;
+    border-radius: 5px;
+    margin: 0px 120px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* last part of the website*/
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color:#151414; 
+    display: flex;
+    justify-content: center;
+}
+.footer-left{
+    flex-basis: 40%;
+    
+}
+.footer-right{
+  flex-basis: 30%;
+}
+.footer-right h2{
+    font-size: 45px;
+    color: #F8F8F8;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.footer h2{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer p{
+    color: #ffffff;
+    width: 450px;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+.social-media{
+    display: flex;
+    padding: 5px 0 0 0;
+}
+.icon{
+    padding: 5px;
+}
+.subscribe-button{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: white;
+    color: #F15B22;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+
+}
+.email-section{
+    width: 70%;
+    background: transparent;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    border: 2px solid #F3F3F3;
+    padding: 15px;
 }
