@@ -31,6 +31,8 @@ html,body{
   font-size: 15px;
   padding-top: 25px;
   padding-bottom: 25px;
+  text-align: right;
+  
 }
 /* contact-button*/
 .contact{
